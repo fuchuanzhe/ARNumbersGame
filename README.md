@@ -1,5 +1,7 @@
 # AR Number Game
 
+<img width="1695" height="974" alt="prototype" src="cover_img.png" />
+
 ## Requirements
 - Unity 6.0
 - ARFoundation 6.06
