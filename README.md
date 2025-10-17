@@ -19,3 +19,8 @@
 - Open in Unity
 - Build to device (File -> Build and Run)
 
+## Demo
+[View the video](https://youtube.com/shorts/7yO30cEhEuc)
+
+
+
