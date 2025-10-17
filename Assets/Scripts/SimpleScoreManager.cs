@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class SimpleScoreManager : MonoBehaviour
 {
-    private int noOfAttempts = 0;
+    private int noOfWrongAttempts = 0;
 
-    public void IncreaseAttempts()
+    public void IncreaseWrongAttempts()
     {
-        noOfAttempts++;
+        noOfWrongAttempts++;
     }
 
     public int GetFinalScore()
     {
-        return 20 - noOfAttempts; // no of correct selections
+        return 10 - noOfWrongAttempts; // no of correct selections
     }
 }

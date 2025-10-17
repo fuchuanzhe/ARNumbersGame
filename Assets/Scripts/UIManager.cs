@@ -76,7 +76,6 @@ public class UIManager : MonoBehaviour
         {
             audioSource.PlayOneShot(congrats);
             feedbackText.text = "Correct!";
-            scoreManager.IncreaseAttempts();
             if (numberManager.hasNextToSpawn())
             {
                 BuildQuestionFromCurrentNumber();
@@ -90,7 +89,7 @@ public class UIManager : MonoBehaviour
         {
             audioSource.PlayOneShot(tryAgain);
             feedbackText.text = "Try again!";
-            scoreManager.IncreaseAttempts();
+            scoreManager.IncreaseWrongAttempts();
             clickedButton.gameObject.SetActive(false);
         }
     }
